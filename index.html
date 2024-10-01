@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang = en>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+       <title>My Portfolio</title> 
+       <link rel="stylesheet" href="styles.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <body>
+        <!-- start of top section -->
+        <section class="home-sec">
+        <nav class="navbar">
+            <div class="nav-container" id = "home">
+                <a class="logo">&lt;GIAN /&gt;</a>
+                <a href="#contact-me">Contact</a>
+                <a href="#projects">Projects</a>
+                <a href="#aboutme">About</a>
+                <a href="#home" class="active">Home</a>
+                <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </div>
+        </nav>
+
+        
+
+        <div class = "main-container">
+            <div class = "top-container">
+                <div class="autotypecont">
+                    <p class="p1"><span id = "text"></span></p>
+                </div>
+                <div class="top-media">
+                <h2 class = "Hello">Hello! I'm</h2>
+                <h1 class="name"><u>Gian</u> Sarinas</h1>
+                <p class="p2">A self taught developer with passion for turning creative ideas into reality 
+                    using the latest technology available.<p>
+                    </div>
+            </div>
+
+            
+            
+            <div class="pic-container">
+                <img src="./images/profile pic-Photoroom (1).png" alt = "pic" class="profile-pic">
+            </div>
+        </div>
+        
+        <div class="buttonMedia">
+            <div class="buttons">
+                <a href="#contactme" class="primary-btn grow">Say Hello!</a>
+                <a class = "grow" href="https://www.facebook.com/gippo05/"><img src="./images/facebook-svgrepo-com.svg" alt="facebook-icon"></a>
+                <a class = "grow" href="https://www.linkedin.com/in/gian-sarinas-353b74202"><img class="linkedin" src="./images/linkedin.svg" alt="linkedin-icon"></a>
+                <a class = "grow" href="https://github.com/gippo05/"><img class="github" src="./images/github.svg" alt="github-icon"></a>
+            </div>
+
+            <div class="hero-icons">
+                
+            </div>
+        </div>
+
+        <div class="arrow bounce">
+            <a class="fa fa-arrow-down fa-2x" href="#aboutme"></a>
+          </div>
+        </section>
+
+        <!-- end of top section -->
+
+        <!-- start of second section -->
+        <section class = "about-sec">
+
+         <div class = "second-main">  
+            <div class = "second-container">
+                <div id="aboutme" class="aboutcontainer">
+                    <h2 class = "about">About Me</h2>
+                    <p class="about-me-description"> Hi! You can call me <span class ="gian">Gian</span> or <span class = "gipps">Gipps</span>, whichever you like. I love coding! I'm <span class="passionate">passionate</span> about creating web applications with the latest technologies available in the the market.</p>
+                    <p class = "about2"> I started learning to code just for fun. When I was a kid it was always my <span class="dream">dream</span> to create my own website and web-apps. It's always <span class="fulfilling">fulfilling</span> for me when I get to create something especially when I'm able to put my <span>creative ideas</span> into it.</p>
+                </div>
+            </div>
+
+            <div class = "third-container">
+                <p class="using">Technologies I'm using</p>
+                <div class = "tech-stack1">
+                        <ul class="techlist">
+                            <img class="tech-icon grow" src="./images/html-5-logo-svgrepo-com.svg">
+                            <img class="tech-icon grow" src="./images/css-3-svgrepo-com.svg">
+                            <img class="tech-icon grow" src="./images/js-svgrepo-com.svg">
+                </div>
+                <div class="tech-stack2">
+                        <ul class="techlist">
+                            <img class="tech-icon grow" src="./images/react-svgrepo-com.svg">
+                            <img class="tech-icon grow" src="./images/bootstrap-svgrepo-com.svg">
+                            <img class="tech-icon grow" src="./images/jquery-svgrepo-com.svg">
+                        </ul>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <div class="fourth-container">
+            <div class="projects-container" id = "projects">
+                <h2>Projects</h2>
+        </div>
+    </div>
+
+        <div class="fifth-container">
+        <div class="contact">
+            <h2 class="contactme" id="contact-me">Contact me</h2>
+            <h3 class="love"><span>Love </span>what you're seeing so far? <span>Let's talk</span> about how we can leverage my expertise to help you with your business needs.</h3>
+            <a class="primary-btn grow" href="mailto:gsarinas17@gmail.com">Contact Me</a>
+        </div>
+    </div>
+    <footer>
+    <div class="bottom-container">
+        <div class="footer-links">
+            <a class="footer-link" href="https://www.linkedin.com/in/gian-sarinas-353b74202">LinkedIn</a>
+            <a class="footer-link" href="https://www.facebook.com/gippo05/">Facebook</a>
+            <a class="footer-link" href="https://github.com/gippo05">GitHub</a>
+        </div>
+        <p class="copyright">© Gian Sarinas 2024. All rights reserved.</p>
+      
+     </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./index.js"></script>
+    </body>
+</html>
